@@ -231,7 +231,7 @@ nav {
 .linkNP {
   padding: 5rem;
 }
-
+/* this css is used to create the banner image that stretches across the whole viewport as well as have a responsible banner title */
 .container-about {
   background: url("/img/services/services-jumbotron.png") no-repeat;
   background-size: 100% 100%;
@@ -411,15 +411,6 @@ html {
   #sustainability-image-mobile {
     display: block !important;
   }
-  /* .bottomleft {
-    position: absolute;
-    bottom: 40rem;
-    left: 15rem;
-    font-size: 4rem;
-    line-height: 5rem;
-    font-weight: bold;
-    color: white;
-  } */
 }
 
 @media only screen and (max-width: 992px) {
@@ -470,18 +461,8 @@ html {
   #sustainability-image-mobile {
     display: block !important;
   }
-
-  /* .bottomleft {
-    position: absolute;
-    bottom: 45rem;
-    left: 15rem;
-    font-size: 4rem;
-    line-height: 5rem;
-    font-weight: bold;
-    color: white;
-  } */
 }
-
+/* css for tablet */
 @media only screen and (max-width: 800px) {
   .hambImg {
     font-size: 0px;
@@ -541,7 +522,7 @@ html {
     padding-left: 1%;
   }
 }
-
+/* css for mobile */
 @media only screen and (max-width: 480px) {
   .body-div {
     margin-left: 0;

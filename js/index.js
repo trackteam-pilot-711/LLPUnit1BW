@@ -18,7 +18,7 @@ document.getElementById("defaultOpen").click();
 
 // secrives js section end
 
-// Menu
+// Main Menu
 
 function myFunction() {
   var x = document.getElementById("myTopnav");
